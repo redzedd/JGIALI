@@ -1,0 +1,25 @@
+# 忽略 Unity 的系統與暫存檔 (這很重要)
+Library/
+Temp/
+Logs/
+Builds/
+UserSettings/
+.vs/
+.gradle/
+
+# 忽略 Meta 檔案 (AI 讀這個沒用，只會被干擾)
+**/*.meta
+
+# 忽略大型資源檔 (避免 AI 讀取圖片或模型亂碼)
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.tga
+**/*.fbx
+**/*.obj
+**/*.mp3
+**/*.wav
+**/*.mp4
+**/*.mat
+**/*.prefab
+**/*.unity

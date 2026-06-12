@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3becac026605414ba680df6960248ff, type: 3}
+  m_Name: Bun
+  m_EditorClassIdentifier: 
+  category: 1
+  durability: 100
+  canDashWhileHolding: 1
+  canBePickedUp: 1
+  icon: {fileID: 21300000, guid: dc86ba0ae0860eb4888deba95c7f92c5, type: 3}
+  price: 2
+  itemPrefab: {fileID: 0}
+  isProcessed: 1
+  assemblySortOrder: 0
+  visualPrefab: {fileID: 9095644212288647428, guid: 018051d665e52fa47a50d66ea4289318, type: 3}
+  topBunVisual: {fileID: 5270217296601800799, guid: d455c601012db6945ac106694068280d, type: 3}
+  heldRotation: {x: -90, y: 0, z: 0}
+  placedRotation: {x: -90, y: 0, z: 0}
+  inToolRotation: {x: 0, y: 0, z: 0}
+  packedBoxData: {fileID: 11400000, guid: 244490c351063454bb42f9eb47487b7b, type: 2}
+  requireBunToPack: 1

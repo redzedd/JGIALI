@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3becac026605414ba680df6960248ff, type: 3}
+  m_Name: Patty_Cooked
+  m_EditorClassIdentifier: 
+  category: 1
+  durability: 100
+  canDashWhileHolding: 1
+  canBePickedUp: 1
+  icon: {fileID: 21300000, guid: ce6e52b2f28d3f74c8085438f8ddce9d, type: 3}
+  price: 10
+  itemPrefab: {fileID: 5718365280097781712, guid: e8364d9a910513e4397aa8cd5b68f070, type: 3}
+  isProcessed: 1
+  assemblySortOrder: 10
+  visualPrefab: {fileID: 5718365280097781712, guid: e8364d9a910513e4397aa8cd5b68f070, type: 3}
+  topBunVisual: {fileID: 0}
+  heldRotation: {x: -90, y: 0, z: 0}
+  placedRotation: {x: -90, y: 0, z: 0}
+  inToolRotation: {x: -90, y: 0, z: 0}
+  packedBoxData: {fileID: 0}
+  requireBunToPack: 1

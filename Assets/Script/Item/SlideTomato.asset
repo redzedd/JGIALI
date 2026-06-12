@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3becac026605414ba680df6960248ff, type: 3}
+  m_Name: SlideTomato
+  m_EditorClassIdentifier: 
+  category: 1
+  durability: 100
+  canDashWhileHolding: 1
+  canBePickedUp: 1
+  icon: {fileID: 21300000, guid: e6ea9c28aee62eb4aaad59204b7357e2, type: 3}
+  price: 5
+  itemPrefab: {fileID: 549409913519667943, guid: cccae237ff5b4cf4cba68eb5626c6bb6, type: 3}
+  isProcessed: 1
+  assemblySortOrder: 30
+  visualPrefab: {fileID: 549409913519667943, guid: cccae237ff5b4cf4cba68eb5626c6bb6, type: 3}
+  topBunVisual: {fileID: 0}
+  heldRotation: {x: -90, y: 0, z: 0}
+  placedRotation: {x: -90, y: 0, z: 0}
+  inToolRotation: {x: -90, y: 0, z: 0}
+  packedBoxData: {fileID: 0}
+  requireBunToPack: 1

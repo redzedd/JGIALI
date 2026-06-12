@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49f54c1f4ae4274e9857d708f0d3a63, type: 3}
+  m_Name: Patty_RE
+  m_EditorClassIdentifier: 
+  requiredTool: {fileID: 11400000, guid: 2a271d543f5af2846ae34b78a2b5ee14, type: 2}
+  requiredStation: 1
+  inputIngredients:
+  - {fileID: 11400000, guid: ffbd3f30be9be5e47ad4b5a6e0a4747b, type: 2}
+  processType: 1
+  processDuration: 3
+  outputItem: {fileID: 11400000, guid: e0988a17fdc4a9546a58fca8b9641f5d, type: 2}

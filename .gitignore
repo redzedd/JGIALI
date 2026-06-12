@@ -1,0 +1,67 @@
+# ============================================================
+#  Unity 標準忽略項目(可由 Unity 重新產生的暫存/快取)
+# ============================================================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset meta data — 只忽略「已被忽略資料夾」內的 meta(Unity 規則)
+!/[Ll]ibrary/PackageCache/
+
+# Visual Studio / Rider / VSCode 等 IDE 產物
+.vs/
+.vscode/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+
+# 自動產生的 C# 專案/方案檔(由 Unity 重新產生)
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Plastic SCM
+/.plastic/
+/[Aa]ssets/[Pp]lugins/[Pp]lasticSCM*
+
+# 打包輸出
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+sysinfo.txt
+
+# OS 暫存
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+#  本專案額外排除:第三方 Asset Store 素材包(體積龐大,可重新匯入)
+#  還原時請至 Asset Store / Package Manager 重新匯入下列套件
+# ============================================================
+/Assets/SwordAnimationPack/
+/Assets/SwordAnimationPack.meta
+/Assets/Feel/
+/Assets/Feel.meta
+/Assets/Extensions/
+/Assets/Extensions.meta
